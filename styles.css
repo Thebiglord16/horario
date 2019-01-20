@@ -11,6 +11,7 @@ div{
 	text-align: center;
 	margin: 0.2%;
 	border-radius: 5%;
+	transition: background 1s;
 }
 p
 {

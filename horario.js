@@ -88,7 +88,8 @@ function init()
 				else if(this.className==="compFisica")
 				{
 					this.innerHTML=horarios[8];
-
+					this.style.backgroundColor="rgb(97, 190, 158)";
+					this.style.color="rgb(158, 65, 97)";
 				}
 				else
 				{
@@ -137,23 +138,25 @@ function init()
 				}
 				else if(this.className==="libre")
 				{
-					this.innerHTML="Libre";
+					this.innerHTML="<p>Libre</p>";
 					this.style.color="rgb(27, 252, 211)";
 					this.style.backgroundColor="rgb(228, 3, 44)";
 				}
 				else if(this.className==="fisica")
 				{
-					this.innerHTML="Fisica II";
+					this.innerHTML="<p>Fisica II</p>";
 					this.style.color="rgb(32, 170, 234)";
 					this.style.backgroundColor="rgb(223, 85, 21)";
 				}
 				else if(this.className==="compFisica")
 				{
-					this.innerHTML=horarios[8];
+					this.innerHTML="<p>Comp. Fisica II</p>";
+					this.style.color="rgb(97, 190, 158)";
+					this.style.backgroundColor="rgb(158, 65, 97)";
 				}
 				else
 				{
-					this.innerHTML=horarios[9];
+					this.innerHTML="<p>PMC</p>";
 				}
 			});
 		}

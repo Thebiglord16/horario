@@ -51,9 +51,16 @@ function init()
 				}
 				else if(this.className==="vecto")
 				{
-					this.innerHTML=horarios[2];
-					this.style.color="yellow";
-					this.style.backgroundColor="rgb(0, 0, 255)";
+					if (this.id==="miercoles") {
+						this.innerHTML=horarios[2];
+						this.style.color="yellow";
+						this.style.backgroundColor="rgb(0, 0, 255)";
+					}
+					else{
+						this.innerHTML="<p>11:00 - 12:20 <br>B_202</p>";
+						this.style.color="yellow";
+						this.style.backgroundColor="rgb(0, 0, 255)";
+					}
 				}
 				else if(this.className==="japones")
 				{
